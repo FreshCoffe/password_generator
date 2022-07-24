@@ -22,7 +22,7 @@ int passgen() {
         cin >> Input;
         if(Input < 8)
         {
-            cout << "Incorrect Input! | Minimum password lenght is 8.\n";
+            cout << "Incorrect innput! | Minimum password lenght is 8.\n";
         }
     }while (Input < 8);
 
@@ -46,11 +46,11 @@ int passgen() {
 }
 int main()
 {
-    cout << "Random Password generator!\n";
+    cout << "Random password generator!\n";
     cout << "==========================\n";
     passgen();
     char repeat;
-    cout << "Do you want generate a new Password? | Press (y/n)";
+    cout << "Do you want generate a new password? | Press (y/n)";
     cin >> repeat;
     if (repeat == 'y')
     {
